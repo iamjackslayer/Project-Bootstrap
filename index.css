@@ -1,0 +1,221 @@
+nav ul.nav span.glyphicon{
+	top: 17px;	
+}
+
+div#nil{
+	height: 60px;
+	top: 30px;
+}
+/*main section*/
+section#headlines h4{
+	color: #FF0505;
+	text-align: center;
+	padding-right: 46px;
+}
+section#headlines a{
+	color: black;
+}
+div#left h3, div#left h1,div#left p,div#left h4{
+	text-align: center;
+}
+div#left article:nth-child(2){
+	border-bottom: 1px solid #E5E5E5;
+}
+div#left article:nth-child(3){
+	border-right: 1px solid #E5E5E5;
+}
+/*boxes*/
+section#first-row-boxes article p,section#first-row-boxes article h4,section#second-row-boxes article p,section#second-row-boxes article h4 {
+	text-align: center;
+}
+
+section#first-row-boxes article, section#second-row-boxes article{
+	border-top: 1px solid #E5E5E5;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+/*In the Magazine*/
+section#magazine h2{
+	color: #FF0505;
+	text-align: center;
+	margin-bottom: 30px;
+}
+section#magazine article p,section#magazine article h4{
+	text-align: center;
+}
+section#magazine div#mag-left,section#magazine div#mag-right {
+	border-bottom: 2.2px solid #FF0505;
+	margin-bottom: 2em;
+}
+/*This Week*/
+div#this-week-heading{
+	text-align: center;
+	color: #FF0505;
+}
+#inside-this-issue{
+	padding-top: 200px;
+	font-size: 1.4em;	
+}
+#this-week ul li{
+	padding:10px;
+	font-size: 1.4em;
+}
+.most-read{
+	position: relative;
+	left: -40px;
+	margin-bottom: 50px;
+}
+/*footer*/
+footer{
+	background-color: #181818;
+}
+footer .label{
+	background-color: #FF0505;
+	margin-left: 15px;
+}
+footer ul#newsweek li{
+	color: white;
+}
+section#social-media-icon li{
+	display: block;
+	float: left;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+section#social-media-icon li a{
+	text-decoration: none;
+	display: block;
+	background-image: url(http://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/sprite-lemon.png);
+	width: 40px;
+	height: 40px;
+	background-size: 240px;
+	background-repeat: no-repeat;
+}
+section#social-media-icon li:nth-child(1) a{
+	background-position: 0 0;
+}
+section#social-media-icon li:nth-child(2) a{
+	background-position: -40px 0;
+}
+section#social-media-icon li:nth-child(3) a{
+	background-position: -80px 0;
+}
+section#social-media-icon li:nth-child(4) a{
+	background-position: -120px 0;
+}
+button#newsletter{
+	width: 500px;
+	color:white;
+	background-color: #00B7FF;
+	border-color: #00B7FF;
+	margin-top: 11px;
+	float: right;
+	margin-right: 20px;
+}
+button#newsletter:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+/*footer
+ `--recent issues*/
+section#recent-issues {
+	margin-top: 40px;
+}
+section#recent-issues ul {
+	list-style: none;
+	padding-left: 0;
+	
+}
+section#recent-issues ul li{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/*`--button*/
+.browse-btn{
+	clear: both;
+    width: 204px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 50px;
+}
+.browse-btn a{
+	display: block;
+    border: 1px solid #fff;
+}
+footer{
+	padding-bottom: 40px;
+}
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+    div#left article h3, div#left article h1{
+        font-size: 1em;
+    }
+    section#magazine div#mag-left,section#magazine div#mag-right {
+		border-bottom-width: 0;
+		margin-bottom: 0;
+	}
+	section#magazine div#mag-left h2,section#magazine div#mag-right h2{
+		border-bottom-width: 0;
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+	section#magazine div#mag-center {
+		border-bottom: 2px solid #FF0505;
+		border-top: 2px solid #FF0505;
+		margin-bottom: 0;
+
+	}
+	#inside-this-issue{
+	padding-top: 0;
+	font-size: 0.9em;	
+	}
+	#this-week ul li{
+		padding:4px;
+		font-size: 0.9em;
+	}
+	.most-read{
+	position: relative;
+	left: 0px;
+	margin-bottom: 0;
+	}
+	/*footer*/
+	footer button#newsletter{
+		width: 300px;
+		margin-top: 24px;
+		margin-right: 20px;
+	}
+	footer ul#newsweek li{		
+		font-size: 20px;
+		margin-left: 100px;
+	}
+	/*footer
+	  `-- recent-issues*/
+	section#recent-issues {
+		margin-top: 20px;
+	}
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    div#left article h3, div#left article h1{
+        font-size: 1.6em;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+     div#left article h3, div#left article h1{
+     	font-size: 2.5em;
+     }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.3em;
+    }
+}
